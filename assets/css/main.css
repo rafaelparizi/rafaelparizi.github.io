@@ -554,6 +554,14 @@ section,
   font-weight: 700;
 }
 
+.hero h2 .pronouns {
+  font-size: 0.4em;
+  font-weight: 400;
+  color: color-mix(in srgb, var(--default-color), transparent 45%);
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
 .hero p {
   margin: 5px 0 0 0;
   font-size: 26px;

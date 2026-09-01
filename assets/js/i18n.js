@@ -29,6 +29,7 @@
     "nav.contact": { en: "Contact", pt: "Contato" },
 
     /* Hero */
+    "hero.pronouns": { en: "(he/him)", pt: "(ele/dele)" },
     "typed": {
       en: "Software Engineering Researcher, Software Engineering Professor, Computer Science Education Researcher",
       pt: "Pesquisador em Engenharia de Software, Professor de Engenharia de Software, Pesquisador em Educação em Computação"
