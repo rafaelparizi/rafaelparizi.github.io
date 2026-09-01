@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+
+# Template archive (not needed for the site)
+template.zip
+
+# Local working files
+index-original-backup.html
+
+# Editor / tooling
+.claude/
