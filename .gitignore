@@ -1,11 +1,32 @@
 # OS
 .DS_Store
 
-# Template archive (not needed for the site)
-template.zip
-
-# Local working files
-index-original-backup.html
-
 # Editor / tooling
 .claude/
+
+# --- Kept local only, not part of the published site ---
+
+# Template archive and pre-rewrite backup
+template.zip
+index-original-backup.html
+
+# Unused template pages
+Readme.txt
+starter-page.html
+portfolio-details.html
+service-details.html
+page-lab-ideias-details.html
+page-project-DT.html
+
+# Contact form (site uses plain contact info, no PHP form)
+forms/
+
+# Images only used by sections that were removed
+assets/img/testimonials/
+assets/img/masonry-portfolio/
+assets/img/portfolio/
+assets/img/profile-img.jpg
+assets/img/services.jpg
+
+# SCSS source (main.css is what the site loads)
+assets/scss/
