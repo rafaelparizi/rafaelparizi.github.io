@@ -613,6 +613,14 @@ section,
   margin: 0 auto;
 }
 
+.about .about-photo + .about-photo {
+  margin-top: 24px;
+}
+
+.about .about-photo-secondary {
+  object-position: 45% 45%;
+}
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
