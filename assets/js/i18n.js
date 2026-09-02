@@ -239,7 +239,7 @@
       en: "Work presented at conferences in Brazil, Argentina, Germany, Canada, and Finland.",
       pt: "Trabalhos apresentados em conferências no Brasil, Argentina, Alemanha, Canadá e Finlândia."
     },
-    "service.col2": { en: "Institutional Roles — IFFar (recent)", pt: "Cargos Institucionais — IFFar (recentes)" },
+    "service.col2": { en: "Institutional Roles — IF Farroupilha (recent)", pt: "Cargos Institucionais — IF Farroupilha (recentes)" },
     "service.is.h": {
       en: "Coordinator — Bachelor's Degree in Information Systems",
       pt: "Coordenador — Bacharelado em Sistemas de Informação"
