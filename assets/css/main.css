@@ -602,6 +602,17 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about .about-photo {
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: 50% 18%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
