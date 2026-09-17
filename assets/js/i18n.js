@@ -21,6 +21,7 @@
     /* Nav */
     "nav.home": { en: "Home", pt: "Início" },
     "nav.about": { en: "About", pt: "Sobre" },
+    "nav.awards": { en: "Awards", pt: "Premiações" },
     "nav.research": { en: "Research", pt: "Pesquisa" },
     "nav.projects": { en: "Projects", pt: "Projetos" },
     "nav.publications": { en: "Publications", pt: "Publicações" },
@@ -97,6 +98,43 @@
     "stats.confs": { en: "Conferences served as organizing member", pt: "Conferências com atuação na organização" },
     "stats.workshops": { en: "Hours facilitating Design Thinking workshops", pt: "Horas facilitando workshops de Design Thinking" },
     "stats.awards": { en: "Best-paper and reviewer recognitions", pt: "Reconhecimentos de melhor artigo e de revisor" },
+
+    /* Awards */
+    "awards.title": { en: "Awards & Recognition", pt: "Premiações e Reconhecimentos" },
+    "awards.lead": {
+      en: "Reviewer and distinguished-service recognitions from the Brazilian Computer Society and the software engineering research community.",
+      pt: "Reconhecimentos de revisor e de atuação destacada concedidos pela Sociedade Brasileira de Computação e pela comunidade de pesquisa em Engenharia de Software."
+    },
+    "awards.i1.h": { en: "Best Reviewer — Education Track", pt: "Melhor Revisor — Trilha de Educação" },
+    "awards.i1.p": {
+      en: "Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de Computação.",
+      pt: "Simpósio Brasileiro de Qualidade de Software (SBQS), Sociedade Brasileira de Computação."
+    },
+    "awards.i2.h": { en: "Best Reviewer — Research Track", pt: "Melhor Revisor — Trilha de Pesquisa" },
+    "awards.i2.p": {
+      en: "Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de Computação.",
+      pt: "Simpósio Brasileiro de Qualidade de Software (SBQS), Sociedade Brasileira de Computação."
+    },
+    "awards.i3.h": { en: "Best Reviewer — EduComp", pt: "Melhor Revisor — EduComp" },
+    "awards.i3.p": {
+      en: "Simpósio Brasileiro de Educação em Computação, Sociedade Brasileira de Computação.",
+      pt: "Simpósio Brasileiro de Educação em Computação, Sociedade Brasileira de Computação."
+    },
+    "awards.i4.h": { en: "Best Reviewer — SBQS", pt: "Melhor Revisor — SBQS" },
+    "awards.i4.p": {
+      en: "Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de Computação.",
+      pt: "Simpósio Brasileiro de Qualidade de Software (SBQS), Sociedade Brasileira de Computação."
+    },
+    "awards.i5.h": { en: "Distinguished Reviewer", pt: "Revisor Destaque" },
+    "awards.i5.p": {
+      en: "Journal of Software Engineering Research and Development (JSERD).",
+      pt: "Journal of Software Engineering Research and Development (JSERD)."
+    },
+    "awards.i6.h": { en: "Distinguished Reviewer", pt: "Revisor Destaque" },
+    "awards.i6.p": {
+      en: "Journal of Software Engineering Research and Development (JSERD).",
+      pt: "Journal of Software Engineering Research and Development (JSERD)."
+    },
 
     /* Research */
     "research.title": { en: "Research", pt: "Pesquisa" },
