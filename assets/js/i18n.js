@@ -172,6 +172,7 @@
       en: "Recent publications on collaborative systems, Design Thinking, human aspects of software engineering, and Computer Science education. For the complete and up-to-date list, please see my Lattes CV and Google Scholar profile.",
       pt: "Publicações recentes sobre sistemas colaborativos, Design Thinking, aspectos humanos da Engenharia de Software e educação em Computação. Para a lista completa e atualizada, consulte meu Currículo Lattes e o perfil no Google Scholar."
     },
+    "pub.col1title2026": { en: "Conference & Workshop Papers — 2026", pt: "Artigos em Conferências e Workshops — 2026" },
     "pub.col1title": { en: "Journal Articles & Book Chapters", pt: "Artigos em Periódicos e Capítulos de Livro" },
     "pub.col1title2024": { en: "Conference & Workshop Papers — 2024", pt: "Artigos em Conferências e Workshops — 2024" },
     "pub.col2title2025": { en: "Conference & Workshop Papers — 2025", pt: "Artigos em Conferências e Workshops — 2025" },
@@ -209,6 +210,18 @@
     "pub.i10.venue": {
       en: "Brazilian Software Quality Symposium (SBQS), São José dos Campos, Brazil.",
       pt: "Simpósio Brasileiro de Qualidade de Software (SBQS), São José dos Campos, Brasil."
+    },
+    "pub.i11.venue": {
+      en: "Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Porto Alegre, Brazil.",
+      pt: "Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Porto Alegre, Brasil."
+    },
+    "pub.i12.venue": {
+      en: "Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Porto Alegre, Brazil.",
+      pt: "Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Porto Alegre, Brasil."
+    },
+    "pub.i13.venue": {
+      en: "Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.",
+      pt: "Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brasil."
     },
 
     /* Academic Service */
