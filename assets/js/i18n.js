@@ -261,6 +261,39 @@
       en: "Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.",
       pt: "Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brasil."
     },
+    "pub.i14.venue": {
+      en: "Simpósio Brasileiro de Engenharia de Software (SBES), São Paulo, Brazil.",
+      pt: "Simpósio Brasileiro de Engenharia de Software (SBES), São Paulo, Brasil."
+    },
+    "pub.i15.venue": {
+      en: "Simpósio Brasileiro de Engenharia de Software (SBES), São Paulo, Brazil.",
+      pt: "Simpósio Brasileiro de Engenharia de Software (SBES), São Paulo, Brasil."
+    },
+    "pub.i16.meta": { en: "2026 · Journal article", pt: "2026 · Artigo em periódico" },
+    "pub.i16.venue": {
+      en: "Journal of the Brazilian Computer Society (JBCS), Vol. 32, No. 1.",
+      pt: "Journal of the Brazilian Computer Society (JBCS), Vol. 32, Nº 1."
+    },
+    "pub.i17.venue": {
+      en: "Simpósio Brasileiro de Engenharia de Software (SBES), Brazil.",
+      pt: "Simpósio Brasileiro de Engenharia de Software (SBES), Brasil."
+    },
+    "pub.i18.venue": {
+      en: "Simpósio Brasileiro de Engenharia de Software (SBES), Brazil.",
+      pt: "Simpósio Brasileiro de Engenharia de Software (SBES), Brasil."
+    },
+    "pub.i19.venue": {
+      en: "Escola Regional de Engenharia de Software (ERES), Brazil.",
+      pt: "Escola Regional de Engenharia de Software (ERES), Brasil."
+    },
+    "pub.i20.venue": {
+      en: "Escola Regional de Engenharia de Software (ERES), Brazil.",
+      pt: "Escola Regional de Engenharia de Software (ERES), Brasil."
+    },
+    "pub.i21.venue": {
+      en: "Workshop on Requirements Engineering (WER), Buenos Aires, Argentina.",
+      pt: "Workshop on Requirements Engineering (WER), Buenos Aires, Argentina."
+    },
 
     /* Academic Service */
     "service.title": { en: "Academic Service & Recognition", pt: "Atuação Acadêmica e Reconhecimento" },
