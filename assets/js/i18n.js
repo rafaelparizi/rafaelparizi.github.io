@@ -105,6 +105,18 @@
       en: "Reviewer and distinguished-service recognitions from the Brazilian Computer Society and the software engineering research community.",
       pt: "Reconhecimentos de revisor e de atuação destacada concedidos pela Sociedade Brasileira de Computação e pela comunidade de pesquisa em Engenharia de Software."
     },
+    "awards.i7.h": { en: "Best Paper — Research Track", pt: "Melhor Artigo — Trilha de Pesquisa" },
+    "awards.i7.p": {
+      en: "XXI Simpósio Brasileiro de Sistemas Colaborativos (SBSC 2026), Sociedade Brasileira de Computação.",
+      pt: "XXI Simpósio Brasileiro de Sistemas Colaborativos (SBSC 2026), Sociedade Brasileira de Computação."
+    },
+    "awards.i8.h": { en: "Distinguished Paper", pt: "Artigo Destaque" },
+    "awards.i8.p": {
+      en: "XX Simpósio Brasileiro de Sistemas Colaborativos (SBSC 2025), Sociedade Brasileira de Computação.",
+      pt: "XX Simpósio Brasileiro de Sistemas Colaborativos (SBSC 2025), Sociedade Brasileira de Computação."
+    },
+    "pub.distinguished": { en: "Distinguished Paper", pt: "Artigo Destaque" },
+    "pub.bestpaper": { en: "Best Paper", pt: "Melhor Artigo" },
     "awards.i1.h": { en: "Best Reviewer — Education Track", pt: "Melhor Revisor — Trilha de Educação" },
     "awards.i1.p": {
       en: "Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de Computação.",
@@ -135,6 +147,27 @@
       en: "Journal of Software Engineering Research and Development (JSERD).",
       pt: "Journal of Software Engineering Research and Development (JSERD)."
     },
+
+    /* Home v2 */
+    "v2.badge": { en: "Professor & researcher · IFFar, Brazil", pt: "Professor e pesquisador · IFFar, Brasil" },
+    "v2.role": { en: "Software Engineering Researcher", pt: "Pesquisador em Engenharia de Software" },
+    "v2.cta.research": { en: "Explore my research", pt: "Conheça minha pesquisa" },
+    "v2.cta.pubs": { en: "Publications", pt: "Publicações" },
+    "v2.chip.cesc": { en: "Coordinator · CESC / SBC (2026–2028)", pt: "Coordenador · CESC / SBC (2026–2028)" },
+    "v2.chip.phd": { en: "Ph.D. in Computer Science · PUCRS", pt: "Doutor em Ciência da Computação · PUCRS" },
+    "v2.now": { en: "Currently", pt: "Atualmente" },
+    "v2.research.lead": {
+      en: "How human-centered and creative practices shape the way software is designed, built, and taught.",
+      pt: "Como práticas centradas nas pessoas e criativas moldam a forma como o software é projetado, construído e ensinado."
+    },
+    "v2.latest.title": { en: "Latest publications", pt: "Publicações recentes" },
+    "v2.latest.lead": {
+      en: "A selection from 2026. The complete list is on my Lattes CV and Google Scholar.",
+      pt: "Uma seleção de 2026. A lista completa está no meu Currículo Lattes e no Google Scholar."
+    },
+    "v2.viewall": { en: "View all publications", pt: "Ver todas as publicações" },
+    "v2.contact.btn": { en: "Send an email", pt: "Enviar e-mail" },
+    "v2.projects.lead": { en: "Laboratory and research lines I currently coordinate.", pt: "Laboratório e linhas de pesquisa que coordeno atualmente." },
 
     /* Research */
     "research.title": { en: "Research", pt: "Pesquisa" },

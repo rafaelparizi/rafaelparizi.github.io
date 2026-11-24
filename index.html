@@ -3,977 +3,567 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title data-i18n="_title">Rafael Parizi, Ph.D. — Software Engineering Researcher</title>
   <meta name="description"
-    content="Rafael Parizi, Ph.D. — Professor and researcher in Software Engineering at the Federal Institute Farroupilha (IFFar), Brazil. Research on Design Thinking in software development, product discovery, UX, and Artificial Intelligence in Computer Science education.">
-  <meta name="keywords"
-    content="Rafael Parizi, software engineering research, design thinking, product discovery, user experience, computer science education, artificial intelligence in education, human aspects of software engineering, IFFar, PUCRS">
-  <meta name="author" content="Rafael Parizi">
-
-  <!-- Open Graph / social preview -->
-  <meta property="og:type" content="profile">
-  <meta property="og:title" content="Rafael Parizi, Ph.D. — Software Engineering Researcher">
-  <meta property="og:description"
-    content="Professor and researcher in Software Engineering. Research on Design Thinking, product discovery, UX, and AI in Computer Science education.">
-  <meta property="og:image" content="assets/img/profile-image-2.jpeg">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css?v=20260905" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    content="Rafael Parizi, Ph.D. — Professor and researcher in Software Engineering at IFFar, Brazil. Design Thinking, product discovery, UX, and AI in Computer Science education.">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/site.css?v=16" rel="stylesheet">
 </head>
 
-<body class="index-page">
+<body>
 
-  <header id="header" class="header d-flex flex-column justify-content-center">
-
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span data-i18n="nav.home">Home</span></a>
-        </li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i><span data-i18n="nav.about">About</span></a></li>
-        <li><a href="#awards"><i class="bi bi-award navicon"></i><span
-              data-i18n="nav.awards">Awards</span></a>
-        </li>
-        <li><a href="#research"><i class="bi bi-lightbulb navicon"></i><span
-              data-i18n="nav.research">Research</span></a>
-        </li>
-        <li><a href="#projects"><i class="bi bi-diagram-3 navicon"></i><span
-              data-i18n="nav.projects">Projects</span></a>
-        </li>
-        <li><a href="#publications"><i class="bi bi-journal-text navicon"></i><span
-              data-i18n="nav.publications">Publications</span></a></li>
-        <li><a href="#service"><i class="bi bi-people navicon"></i><span data-i18n="nav.service">Service</span></a></li>
-        <li><a href="#teaching"><i class="bi bi-mortarboard navicon"></i><span
-              data-i18n="nav.teaching">Teaching</span></a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span data-i18n="nav.contact">Contact</span></a>
-        </li>
-        <li><a href="#" class="lang-toggle" role="button"><i class="bi bi-translate navicon"></i><span
-              class="lang-label">PT-BR</span></a></li>
-      </ul>
-    </nav>
-
+  <header class="topo">
+    <div class="container">
+      <a class="marca" href="#inicio"><span class="logo">RP</span>Rafael Parizi</a>
+      <nav aria-label="Main menu">
+        <button class="btn-menu" aria-label="Menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+        <ul class="menu">
+          <li><a href="#sobre" data-i18n="nav.about">About</a></li>
+          <li><a href="#premios" data-i18n="nav.awards">Awards</a></li>
+          <li><a href="#pesquisa" data-i18n="nav.research">Research</a></li>
+          <li><a href="#projetos" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#publicacoes" data-i18n="nav.publications">Publications</a></li>
+          <li><a href="#atuacao" data-i18n="nav.service">Service</a></li>
+          <li><a href="#ensino" data-i18n="nav.teaching">Teaching</a></li>
+          <li><a href="#contato" data-i18n="nav.contact">Contact</a></li>
+          <li><a href="#" class="lang-toggle" role="button"><span class="lang-label">PT-BR</span></a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main class="main">
+  <main id="inicio">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
-
-      <img src="assets/img/hero-bg-2.jpg" alt="Abstract background">
-
-      <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <h2>Rafael Parizi, Ph.D. <span class="pronouns" data-i18n="hero.pronouns">(he/him)</span></h2>
-            <p>&gt;&gt; <span class="typed"
-                data-typed-items="Software Engineering Researcher, Software Engineering Professor, Computer Science Education Researcher">
-                Software Engineering Researcher</span><span class="typed-cursor typed-cursor--blink"
-                aria-hidden="true"></span></p>
-            <p class="mt-2" data-i18n="hero.tagline">
-              Investigating the human and creative side of software development — Design Thinking, product
-              discovery, user experience, and Artificial Intelligence in Computer Science education.
-            </p>
-            <div class="social-links">
-              <a href="https://scholar.google.com/citations?user=KE64ttkAAAAJ&amp;hl" title="Google Scholar"
-                target="_blank" rel="noopener"><i class="bi bi-mortarboard"></i></a>
-              <a href="http://lattes.cnpq.br/1483144999919526" title="Lattes CV" target="_blank" rel="noopener"><i
-                  class="bi bi-file-earmark-person"></i></a>
-              <a href="https://orcid.org/0000-0001-8550-1135" title="ORCID" target="_blank" rel="noopener"><i
-                  class="bi bi-fingerprint"></i></a>
-              <a href="https://www.linkedin.com/in/rafael-parizi/" title="LinkedIn" target="_blank" rel="noopener"><i
-                  class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="about.title">About</h2>
-        <p data-i18n="about.lead">I am a professor and researcher with more than a decade of experience in Computer
-          Science. My work investigates the human, collaborative, and creative dimensions of software development — with
-          an emphasis on Design Thinking, product discovery, user experience, and Artificial Intelligence applied to
-          Computer Science education.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/profile-image-2.jpeg" class="img-fluid about-photo" alt="Portrait of Rafael Parizi">
-            <img src="assets/img/profile-image-3.jpeg" class="img-fluid about-photo about-photo-secondary"
-              alt="Rafael Parizi at ICSE 2026, Rio de Janeiro">
-          </div>
-          <div class="col-lg-8 content">
-            <h2 data-i18n="about.h2">Researcher &amp; Professor</h2>
-            <p class="fst-italic py-3" data-i18n="about.intro">
-              Passionate about fostering innovation and collaboration, I bridge software engineering research and
-              practice: bringing Design Thinking, discovery, and human-centered methods into how teams build software,
-              and studying how these approaches change the way people learn and work.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.degree.label">Degree:</strong> <span
-                      data-i18n="about.degree.value">Ph.D. in Computer Science</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.phduni.label">Ph.D.
-                      University:</strong>
-                    <span data-i18n="about.phduni.value">Pontifical Catholic University of Rio Grande do Sul
-                      (PUCRS)</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.other.label">Other Degrees:</strong>
-                    <span data-i18n="about.other.value">M.Sc. and B.Sc. in Computer Science</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.focus.label">Research focus:</strong>
-                    <span data-i18n="about.focus.value">Design Thinking in Software Development</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.role.label">Role:</strong> <span
-                      data-i18n="about.role.value">Professor at IFFar, Brazil</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.since.label">Since:</strong>
-                    <span>2012</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.email.label">Email:</strong>
-                    <span>rafael
-                      (dot) parizi (at) iffar (dot) edu (dot) br</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.currently.label">Currently:</strong>
-                    <span data-i18n="about.currently.value">Coordinator of the Special Committee on Collaborative
-                      Systems
-                      (CESC) of the Brazilian Computer Society (SBC), 2026–2028</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.recent.label">Recent roles:</strong>
-                    <span data-i18n="about.recent.value">Coordinator of the Bachelor's Degree in Information Systems ·
-                      Member of the Superior Council at IFFar</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <p class="py-3" data-i18n="about.p1">
-              I hold a Ph.D. with international research experience, including a research period in Germany. I have
-              presented my work at conferences in Brazil, Argentina, Germany, Canada, and Finland.
-            </p>
-
-            <p class="py-3" data-i18n="about.p2">
-              Over the past decade I have coordinated more than seven research projects and trained professionals for
-              both industry and academia. I also actively contribute to the organization of national and international
-              conferences.
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-2 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-emoji-smile"></i>
-            <div class="stats-item">
-              <h3>+</h3><span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p data-i18n="stats.students">Students mentored in Information Technology</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-2 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-journal-richtext"></i>
-            <div class="stats-item">
-              <h3>+</h3><span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p data-i18n="stats.projects">Research projects led as principal investigator</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-2 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-headset"></i>
-            <div class="stats-item">
-              <h3>+</h3><span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p data-i18n="stats.hours">Hours of Computer Science teaching</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-2 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-people"></i>
-            <div class="stats-item">
-              <h3>+</h3><span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p data-i18n="stats.confs">Conferences served as organizing member</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-2 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-clock-history"></i>
-            <div class="stats-item">
-              <h3>+</h3><span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p data-i18n="stats.workshops">Hours facilitating Design Thinking workshops</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-2 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-award"></i>
-            <div class="stats-item">
-              <h3>+</h3><span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p data-i18n="stats.awards">Best-paper and reviewer recognitions</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Awards Section -->
-    <section id="awards" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="awards.title">Awards &amp; Recognition</h2>
-        <p data-i18n="awards.lead">Reviewer and distinguished-service recognitions from the Brazilian Computer Society
-          and the software engineering research community.</p>
-      </div><!-- End Section Title -->
-
+    <!-- Hero -->
+    <section class="hero">
       <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="resume-item">
-              <h4 data-i18n="awards.i6.h">Distinguished Reviewer</h4>
-              <h5>2026</h5>
-              <p><em data-i18n="awards.i6.p">Journal of Software Engineering Research and Development (JSERD).</em></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="awards.i5.h">Distinguished Reviewer</h4>
-              <h5>2025</h5>
-              <p><em data-i18n="awards.i5.p">Journal of Software Engineering Research and Development (JSERD).</em></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="awards.i4.h">Best Reviewer — SBQS</h4>
-              <h5>2025</h5>
-              <p><em data-i18n="awards.i4.p">Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de
-                  Computação.</em></p>
-            </div><!-- End Resume Item -->
-
+        <div>
+          <span class="selo"><i></i><span data-i18n="v2.badge">Professor &amp; researcher · IFFar, Brazil</span></span>
+          <h1>Rafael Parizi, Ph.D. <small data-i18n="hero.pronouns">(he/him)</small></h1>
+          <p class="papel" data-i18n="v2.role">Software Engineering Researcher</p>
+          <p class="lead" data-i18n="hero.tagline">Investigating the human and creative side of software development —
+            Design Thinking, product discovery, user experience, and Artificial Intelligence in Computer Science
+            education.</p>
+          <div class="acoes">
+            <a class="btn" href="#pesquisa" data-i18n="v2.cta.research">Explore my research</a>
+            <a class="btn vazado" href="#publicacoes" data-i18n="v2.cta.pubs">Publications</a>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="resume-item">
-              <h4 data-i18n="awards.i3.h">Best Reviewer — EduComp</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="awards.i3.p">Simpósio Brasileiro de Educação em Computação, Sociedade Brasileira de
-                  Computação.</em></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="awards.i2.h">Best Reviewer — Research Track</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="awards.i2.p">Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de
-                  Computação.</em></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="awards.i1.h">Best Reviewer — Education Track</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="awards.i1.p">Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de
-                  Computação.</em></p>
-            </div><!-- End Resume Item -->
-
+          <div class="redes">
+            <a href="https://scholar.google.com/citations?user=KE64ttkAAAAJ&amp;hl" title="Google Scholar"
+              target="_blank" rel="noopener"><i class="bi bi-mortarboard"></i></a>
+            <a href="http://lattes.cnpq.br/1483144999919526" title="Lattes CV" target="_blank" rel="noopener"><i
+                class="bi bi-file-earmark-person"></i></a>
+            <a href="https://orcid.org/0000-0001-8550-1135" title="ORCID" target="_blank" rel="noopener"><i
+                class="bi bi-fingerprint"></i></a>
+            <a href="https://www.linkedin.com/in/rafael-parizi/" title="LinkedIn" target="_blank" rel="noopener"><i
+                class="bi bi-linkedin"></i></a>
           </div>
-
         </div>
 
+        <div class="retrato">
+          <div class="moldura"><img src="assets/img/profile-image-2.jpeg" alt="Rafael Parizi"></div>
+          <div class="chip chip-a"><span class="ico"><i class="bi bi-people"></i></span><span
+              data-i18n="v2.chip.cesc">Coordinator · CESC / SBC (2026–2028)</span></div>
+          <div class="chip chip-b"><span class="ico"><i class="bi bi-mortarboard"></i></span><span
+              data-i18n="v2.chip.phd">Ph.D. in Computer Science · PUCRS</span></div>
+        </div>
       </div>
+    </section>
 
-    </section><!-- /Awards Section -->
-
-    <!-- Research Interests Section -->
-    <section id="research" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="research.title">Research</h2>
-        <p data-i18n="research.lead">My research investigates how human-centered and creative practices shape the way
-          software is designed, built, and taught. These are the lines of inquiry I am currently active in.</p>
-      </div><!-- End Section Title -->
-
+    <!-- Numbers -->
+    <div class="numeros-wrap">
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon"><i class="bi bi-lightbulb"></i></div>
-              <h3 data-i18n="research.dt.h">Design Thinking in Software Development</h3>
-              <p data-i18n="research.dt.p">How Design Thinking practices can be integrated into software processes to
-                foster innovation, collaboration, and shared understanding within development teams.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-orange position-relative">
-              <div class="icon"><i class="bi bi-compass"></i></div>
-              <h3 data-i18n="research.discovery.h">Product Discovery &amp; Requirements</h3>
-              <p data-i18n="research.discovery.p">Techniques that help teams decide what to build — discovery practices,
-                hypothesis validation, and the bridge between business intent and software requirements.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-teal position-relative">
-              <div class="icon"><i class="bi bi-emoji-heart-eyes"></i></div>
-              <h3 data-i18n="research.ux.h">User Experience in Development Teams</h3>
-              <p data-i18n="research.ux.p">How UX thinking is adopted (or resisted) by software teams, and the human
-                aspects — motivation, communication, empathy — that influence software quality.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-pink position-relative">
-              <div class="icon"><i class="bi bi-mortarboard"></i></div>
-              <h3 data-i18n="research.ai.h">AI in Computer Science Education</h3>
-              <p data-i18n="research.ai.p">Using Artificial Intelligence to support and personalize learning in Computer
-                Science, and studying its effects on how students learn to build software.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-red position-relative">
-              <div class="icon"><i class="bi bi-camera-video"></i></div>
-              <h3 data-i18n="research.cv.h">Computer Vision for Agile Projects</h3>
-              <p data-i18n="research.cv.p">Applying Computer Vision to physical agile artifacts (boards, notes,
-                ceremonies) to generate feedback and increase transparency and efficiency in Agile teams.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon"><i class="bi bi-people"></i></div>
-              <h3 data-i18n="research.cscw.h">Collaborative Systems (CSCW)</h3>
-              <p data-i18n="research.cscw.p">Collaborative and social computing applied to software development,
-                connected to my role in the SBC Special Committee on Collaborative Systems (CESC).</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Research Interests Section -->
-
-    <!-- Projects & Labs Section -->
-    <section id="projects" class="services section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="projects.title">Projects &amp; Labs</h2>
-        <p data-i18n="projects.lead">Research projects and laboratories I currently coordinate, focused on innovative
-          solutions in software engineering, education, and technology.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-orange position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
-                  </path>
-                </svg>
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3 data-i18n="projects.lab.h">Lab Ideas — a Design Thinking Laboratory</h3>
-                <small><span data-i18n="projects.lab.when">2020 – Current</span></small>
-              </a>
-              <p data-i18n="projects.lab.p">A laboratory dedicated to fostering creativity for software development,
-                connecting students, researchers, and practitioners around discovery and Design Thinking.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
-                  </path>
-                </svg>
-                <i class="bi bi-lightbulb"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3 data-i18n="projects.dt.h">Design Thinking in Software Development</h3>
-                <small><span data-i18n="projects.dt.when">2019 – Current</span></small>
-              </a>
-              <p data-i18n="projects.dt.p">Investigating how Design Thinking can drive innovation and collaboration in
-                software development, and how teams adopt these practices in real settings.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-teal position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
-                  </path>
-                </svg>
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3 data-i18n="projects.ai.h">Artificial Intelligence in Computer Science Education</h3>
-                <small><span data-i18n="projects.ai.when">2022 – Current</span></small>
-              </a>
-              <p data-i18n="projects.ai.p">Exploring Artificial Intelligence to innovate and enhance learning in
-                Computer
-                Science education.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-orange position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
-                  </path>
-                </svg>
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3 data-i18n="projects.cv.h">Computer Vision Applied to Agile Projects</h3>
-                <small><span data-i18n="projects.cv.when">2023 – Current</span></small>
-              </a>
-              <p data-i18n="projects.cv.p">Applying Computer Vision to enhance feedback and efficiency in Agile
-                projects.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Projects & Labs Section -->
-
-    <!-- Publications Section -->
-    <section id="publications" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="pub.title">Publications</h2>
-        <p data-i18n="pub.lead">Recent publications on collaborative systems, Design Thinking, human aspects of software
-          engineering, and Computer Science education. For the complete and up-to-date list, please see my Lattes CV and
-          Google Scholar profile.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title" data-i18n="pub.col1title2026">Conference &amp; Workshop Papers — 2026</h3>
-
-            <div class="resume-item">
-              <h4>Let's plAI: A Case Study on AI-Assisted Game Creation in Software Engineering Education</h4>
-              <h5>2026</h5>
-              <p><em data-i18n="pub.i14.venue">Simpósio Brasileiro de Engenharia de Software (SBES), São Paulo,
-                  Brazil.</em></p>
-              <p><strong>Parizi, R. B.</strong>; Campos, L. A.; Fonseca, A. P.; Kleinpaul, E.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Scientific Collaboration in Brazilian Software Engineering: A Longitudinal Analysis of the SBES
-                Coauthorship Network (1987–2025)</h4>
-              <h5>2026</h5>
-              <p><em data-i18n="pub.i15.venue">Simpósio Brasileiro de Engenharia de Software (SBES), São Paulo,
-                  Brazil.</em></p>
-              <p>Bordin, A. S.; Garcia, L. C. M.; <strong>Parizi, R. B.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Rubricas para Avaliação da Colaboração em Desenvolvimento de Software: Evidências a partir de uma
-                Disciplina Mediada pelo Lean Inception</h4>
-              <h5>2026</h5>
-              <p><em data-i18n="pub.i11.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Porto Alegre,
-                  Brazil.</em></p>
-              <p>Kleinpaul, E.; Pires, A.; Campos, L.; Iglesias, I. L.; <strong>Parizi, R. B.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Impacto Solidário: Um Sistema Colaborativo para Gestão de Doações em Cenários de Crises
-                Climáticas</h4>
-              <h5>2026</h5>
-              <p><em data-i18n="pub.i12.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Porto Alegre,
-                  Brazil.</em></p>
-              <p>Silva, L.; Fagundes, N.; Silveira, R.; Flores, T.; <strong>Parizi, R. B.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Curricularização da Extensão como Estratégia de Fomento à Colaboração: Relato de Experiência em
-                Projetos Integradores</h4>
-              <h5>2026</h5>
-              <p><em data-i18n="pub.i13.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</em></p>
-              <p><strong>Parizi, Rafael</strong></p>
-            </div><!-- End Resume Item -->
-
-            <h3 class="resume-title mt-4" data-i18n="pub.col1title">Journal Articles &amp; Book Chapters</h3>
-
-            <div class="resume-item">
-              <h4>Implementing the Lotus Blossom Technique to Enhance Collaboration in Software Engineering Education
-              </h4>
-              <h5 data-i18n="pub.i16.meta">2026 · Journal article</h5>
-              <p><em data-i18n="pub.i16.venue">Journal of the Brazilian Computer Society (JBCS), Vol. 32, No. 1.</em></p>
-              <p>Kleinpaul, E.; Pires, A.; Campos, L.; <strong>Parizi, R.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Avaliando a Colaboração no Ensino de Engenharia de Software: Percepções a partir de uma Revisão
-                Rápida</h4>
-              <h5 data-i18n="pub.i1.meta">2025 · Journal article</h5>
-              <p><em data-i18n="pub.i1.venue">Accepted for publication in the SOL journal.</em></p>
-              <p><strong>Parizi, R. B.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>DTColab: Design Thinking na Educação com Suporte de Ferramentas Computacionais Colaborativas</h4>
-              <h5 data-i18n="pub.i2.meta">2024 · Book chapter</h5>
-              <p><em>XII Jornada de Atualização em Informática na Educação (JAI), SBC.</em></p>
-              <p><strong>Parizi, R. B.</strong>; Gouvea, M. T. A.; Dias, A. F. S.</p>
-            </div><!-- End Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title" data-i18n="pub.col2title2025">Conference &amp; Workshop Papers — 2025</h3>
-
-            <div class="resume-item">
-              <h4>Com Quem Colaboras? Uma Análise Bibliométrica das Redes de Pesquisa em Sistemas Colaborativos na SBC
-                Open Library</h4>
-              <h5>2025</h5>
-              <p><em data-i18n="pub.i6.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</em></p>
-              <p>Pires, A.; Kleinpaul, E.; <strong>Parizi, R.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Framework DTColab ON ou OFF? Investigando o uso de sistemas colaborativos na cocriação de soluções no
-                Design Thinking</h4>
-              <h5>2025</h5>
-              <p><em data-i18n="pub.i7.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</em></p>
-              <p>Gouvêa, M. T.; Dias, A. F. S.; <strong>Parizi, R.</strong>; Motta, C.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>On the Use of the Lotus Blossom Technique to Foster Collaboration among Students in Software
-                Development</h4>
-              <h5>2025</h5>
-              <p><em data-i18n="pub.i8.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</em></p>
-              <p>Kleinpaul, E.; Pires, A.; Machado, L.; <strong>Parizi, R.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Avaliando a Colaboração no Ensino de Engenharia de Software: Percepções a partir de uma Revisão
-                Rápida</h4>
-              <h5>2025</h5>
-              <p><em data-i18n="pub.i9.venue">Simpósio Brasileiro de Engenharia de Software (SBES), Recife, Brazil.</em>
-              </p>
-              <p>Kleinpaul, E.; <strong>Parizi, R. B.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>From Prompts to Prototypes: Exploring ChatGPT in Collaborative Software Prototyping Education</h4>
-              <h5>2025</h5>
-              <p><em data-i18n="pub.i10.venue">Brazilian Software Quality Symposium (SBQS), São José dos Campos,
-                  Brazil.</em></p>
-              <p>Pires, A.; Kleinpaul, E.; Campos, L.; <strong>Parizi, R. B.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <h3 class="resume-title mt-4" data-i18n="pub.col1title2024">Conference &amp; Workshop Papers — 2024</h3>
-
-            <div class="resume-item">
-              <h4>Collab2US: a Tool for Collecting User Stories from Collaborative Boards</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="pub.i21.venue">Workshop on Requirements Engineering (WER), Buenos Aires, Argentina.</em></p>
-              <p>Dornelles, P. L.; <strong>Parizi, R.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Tell Me What You See: On a Proposal for a Computer Vision and Sentiment Analysis Tool to Support User
-                Feedback Collection in Software Development</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="pub.i20.venue">Escola Regional de Engenharia de Software (ERES), Brazil.</em></p>
-              <p>Soares, R.; Messa, L.; Kleinpaul, E.; <strong>Parizi, R.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>What is Beyond the Box? A Survey on the Human Perspective in Design Thinking Activities in Software
-                Development</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="pub.i19.venue">Escola Regional de Engenharia de Software (ERES), Brazil.</em></p>
-              <p>Nicácio, V.; Kleinpaul, E.; Soares, R.; <strong>Parizi, R.</strong>; Sarkis, L.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Helius: A Design Thinking Techniques Recommendation System in Software Development</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="pub.i18.venue">Simpósio Brasileiro de Engenharia de Software (SBES), Brazil.</em></p>
-              <p><strong>Parizi, R.</strong>; Hanauer, L.; Marczak, S.; Conte, T.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Fostering Collaboration through Design Thinking: A Study among Software Engineering Students</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="pub.i17.venue">Simpósio Brasileiro de Engenharia de Software (SBES), Brazil.</em></p>
-              <p>Abich, D.; <strong>Parizi, R.</strong>; Marczak, S.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Brewing Ideas: An Experience Report on the Use of World Cafés to Spin on Collaborative Learning of
-                Software Development Life Cycles</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="pub.i3.venue">Simpósio Brasileiro de Educação em Computação (EduComp), Brazil.</em></p>
-              <p>Dornelles, P. L.; Dantas, J.; <strong>Parizi, R.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>PIDS: Projetos Integradores em Desenvolvimento de Software como Prática Colaborativa na
-                Curricularização da Extensão</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="pub.i4.venue">Anais Estendidos do Simpósio Brasileiro de Sistemas Colaborativos (SBSC),
-                  Brazil.</em></p>
-              <p>Abich, D.; Cavalheiro, B.; <strong>Parizi, R.</strong></p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4>Oportunidades e Desafios para o Desenvolvimento Colaborativo de Visualizações Narrativas de Dados</h4>
-              <h5>2024</h5>
-              <p><em data-i18n="pub.i5.venue">Anais Estendidos do Simpósio Brasileiro de Sistemas Colaborativos (SBSC),
-                  Brazil.</em></p>
-              <p>Correa, C. M.; <strong>Parizi, R. B.</strong></p>
-            </div><!-- End Resume Item -->
-
-          </div>
-
-        </div>
-
-        <div class="row mt-4">
-          <div class="col-12 text-center" data-aos="fade-up">
-            <a href="https://scholar.google.com/citations?user=KE64ttkAAAAJ&amp;hl"
-              class="btn btn-outline-secondary m-1" target="_blank" rel="noopener">
-              <i class="bi bi-mortarboard"></i> Google Scholar
-            </a>
-            <a href="http://lattes.cnpq.br/1483144999919526" class="btn btn-outline-secondary m-1" target="_blank"
-              rel="noopener">
-              <i class="bi bi-file-earmark-person"></i> Lattes CV
-            </a>
-            <a href="https://orcid.org/0000-0001-8550-1135" class="btn btn-outline-secondary m-1" target="_blank"
-              rel="noopener">
-              <i class="bi bi-fingerprint"></i> ORCID
-            </a>
-            <a href="https://www.linkedin.com/in/rafael-parizi/" class="btn btn-outline-secondary m-1" target="_blank"
-              rel="noopener">
-              <i class="bi bi-linkedin"></i> LinkedIn
-            </a>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Publications Section -->
-
-    <!-- Academic Service Section -->
-    <section id="service" class="resume section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="service.title">Academic Service &amp; Recognition</h2>
-        <p data-i18n="service.lead">Roles and contributions to the research community, program committees, and my
-          institution.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title" data-i18n="service.col1">Community &amp; Committees</h3>
-
-            <div class="resume-item">
-              <h4 data-i18n="service.cesc.h">Coordinator — Special Committee on Collaborative Systems (CESC)</h4>
-              <h5>2026 – 2028</h5>
-              <p><em data-i18n="service.cesc.em">Brazilian Computer Society (SBC)</em></p>
-              <p data-i18n="service.cesc.p">Leading the national research community on collaborative systems and CSCW
-                applied to software development. Previously Co-Coordinator.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="service.confs.h">Conference organization &amp; program committees</h4>
-              <p><em data-i18n="service.confs.em">National and international venues</em></p>
-              <p data-i18n="service.confs.p">Organizing-committee member for 8+ conferences and reviewer for software
-                engineering and computing education venues, with best-paper and outstanding-reviewer recognitions.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="service.intl.h">International research experience</h4>
-              <p><em data-i18n="service.intl.em">Germany (research period)</em></p>
-              <p data-i18n="service.intl.p">Work presented at conferences in Brazil, Argentina, Germany, Canada, and
-                Finland.</p>
-            </div><!-- End Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title" data-i18n="service.col2">Institutional Roles — IF Farroupilha (recent)</h3>
-
-            <div class="resume-item">
-              <h4 data-i18n="service.is.h">Coordinator — Bachelor's Degree in Information Systems</h4>
-              <p><em data-i18n="service.iffar.em">Federal Institute Farroupilha (IFFar)</em></p>
-              <p data-i18n="service.is.p">Led the undergraduate program: curriculum, faculty coordination, and student
-                support.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="service.council.h">Member — Superior Council (Conselho Superior)</h4>
-              <p><em data-i18n="service.iffar.em2">Federal Institute Farroupilha (IFFar)</em></p>
-              <p data-i18n="service.council.p">Served on the highest deliberative body of the institution.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="service.sup.h">Research supervision</h4>
-              <p><em data-i18n="service.sup.em">Undergraduate and technical levels</em></p>
-              <p data-i18n="service.sup.p">40+ students mentored in Information Technology; 7+ research projects
-                coordinated as principal investigator over the past decade.</p>
-            </div><!-- End Resume Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Academic Service Section -->
-
-    <!-- Teaching Section -->
-    <section id="teaching" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="teaching.title">Teaching</h2>
-        <p data-i18n="teaching.lead">Teaching Computer Science since 2012, with more than 10,000 hours in the classroom
-          and a focus on software engineering, discovery, and human-centered design.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title" data-i18n="teaching.col1">Courses &amp; Topics</h3>
-
-            <div class="resume-item">
-              <h4 data-i18n="teaching.se.h">Software Engineering</h4>
-              <p><em data-i18n="teaching.se.em">Undergraduate — Information Systems, IFFar</em></p>
-              <p data-i18n="teaching.se.p">Software processes, requirements, agile methods, and quality.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="teaching.dt.h">Design Thinking &amp; Product Discovery</h4>
-              <p><em data-i18n="teaching.dt.em">Undergraduate and extension courses</em></p>
-              <p data-i18n="teaching.dt.p">200+ hours facilitating Design Thinking workshops for students and
-                practitioners.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="teaching.ux.h">User Experience &amp; Human-Computer Interaction</h4>
-              <p><em data-i18n="teaching.ux.em">Undergraduate — Information Systems, IFFar</em></p>
-              <p data-i18n="teaching.ux.p">Usability, interaction design, and evaluation methods.</p>
-            </div><!-- End Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title" data-i18n="teaching.col2">Mentoring &amp; Outreach</h3>
-
-            <div class="resume-item">
-              <h4 data-i18n="teaching.ic.h">Undergraduate research (scientific initiation)</h4>
-              <p><em data-i18n="teaching.ic.em">2012 – Present</em></p>
-              <p data-i18n="teaching.ic.p">Supervising students on Design Thinking, AI in education, and Computer Vision
-                for agile projects.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="teaching.capstone.h">Capstone and final projects</h4>
-              <p><em data-i18n="teaching.capstone.em">Information Systems, IFFar</em></p>
-              <p data-i18n="teaching.capstone.p">Advising software projects that connect research questions with real
-                problems.</p>
-            </div><!-- End Resume Item -->
-
-            <div class="resume-item">
-              <h4 data-i18n="teaching.outreach.h">Community &amp; K-12 outreach</h4>
-              <p><em data-i18n="teaching.outreach.em">Ongoing</em></p>
-              <p data-i18n="teaching.outreach.p">Bringing computing and design activities to the wider community around
-                São Borja.</p>
-            </div><!-- End Resume Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Teaching Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="contact.title">Contact</h2>
-        <p data-i18n="contact.lead">Open to research collaborations, student supervision, and invited talks. Feel free
-          to reach out.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-5">
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3 data-i18n="contact.addr.h">Work Address</h3>
-                <h5 data-i18n="contact.addr.h5">Federal Institute Farroupilha — São Borja Campus</h5>
-                <p data-i18n="contact.addr.p">Otaviano Castilhos Mendes Street, 355, São Borja - RS, Brazil</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3 data-i18n="contact.email.h">Email</h3>
-                <p><a href="mailto:rafael.parizi@iffar.edu.br">rafael.parizi (at) iffar.edu.br</a></p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-    <div class="container">
-      <h3 class="sitename">Rafael Parizi</h3>
-      <p data-i18n="footer.tagline">Software Engineering researcher &amp; professor — IFFar, Brazil</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://scholar.google.com/citations?user=KE64ttkAAAAJ&amp;hl" title="Google Scholar" target="_blank"
-          rel="noopener"><i class="bi bi-mortarboard"></i></a>
-        <a href="http://lattes.cnpq.br/1483144999919526" title="Lattes CV" target="_blank" rel="noopener"><i
-            class="bi bi-file-earmark-person"></i></a>
-        <a href="https://orcid.org/0000-0001-8550-1135" title="ORCID" target="_blank" rel="noopener"><i
-            class="bi bi-fingerprint"></i></a>
-        <a href="https://www.linkedin.com/in/rafael-parizi/" title="LinkedIn" target="_blank" rel="noopener"><i
-            class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Rafael Parizi</strong> <span
-            data-i18n="footer.rights">All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
-            href="https://themewagon.com">ThemeWagon</a>
+        <div class="numeros">
+          <div class="numero"><strong>40+</strong><span data-i18n="stats.students">Students mentored in Information
+              Technology</span></div>
+          <div class="numero"><strong>7+</strong><span data-i18n="stats.projects">Research projects led as principal
+              investigator</span></div>
+          <div class="numero"><strong>10,000+</strong><span data-i18n="stats.hours">Hours of Computer Science
+              teaching</span></div>
+          <div class="numero"><strong>8+</strong><span data-i18n="stats.confs">Conferences served as organizing
+              member</span></div>
+          <div class="numero"><strong>200+</strong><span data-i18n="stats.workshops">Hours facilitating Design
+              Thinking workshops</span></div>
+          <div class="numero"><strong>8</strong><span data-i18n="stats.awards">Best-paper and reviewer
+              recognitions</span></div>
         </div>
       </div>
     </div>
+
+        <!-- About -->
+    <section class="bloco" id="sobre">
+      <div class="container">
+        <div class="cabec">
+          <h2 data-i18n="about.title">About</h2>
+          <p data-i18n="about.lead">I am a professor and researcher with more than a decade of experience in Computer Science. My work investigates the human, collaborative, and creative dimensions of software development — with an emphasis on Design Thinking, product discovery, user experience, and Artificial Intelligence applied to Computer Science education.</p>
+        </div>
+        <div class="sobre">
+          <div class="fotos">
+            <img src="assets/img/profile-image-2.jpeg" class="foto" alt="Portrait of Rafael Parizi">
+            <img src="assets/img/profile-image-3.jpeg" class="foto foto2" alt="Rafael Parizi at ICSE 2026, Rio de Janeiro">
+          </div>
+          <div>
+            <h3 class="sub-h" data-i18n="about.h2">Researcher &amp; Professor</h3>
+            <p class="intro" data-i18n="about.intro">Passionate about fostering innovation and collaboration, I bridge software engineering research and practice: bringing Design Thinking, discovery, and human-centered methods into how teams build software, and studying how these approaches change the way people learn and work.</p>
+            <dl class="fatos">
+              <div><dt data-i18n="about.degree.label">Degree:</dt><dd data-i18n="about.degree.value">Ph.D. in Computer Science</dd></div>
+              <div><dt data-i18n="about.phduni.label">Ph.D. University:</dt><dd data-i18n="about.phduni.value">Pontifical Catholic University of Rio Grande do Sul (PUCRS)</dd></div>
+              <div><dt data-i18n="about.other.label">Other Degrees:</dt><dd data-i18n="about.other.value">M.Sc. and B.Sc. in Computer Science</dd></div>
+              <div><dt data-i18n="about.focus.label">Research focus:</dt><dd data-i18n="about.focus.value">Design Thinking in Software Development</dd></div>
+              <div><dt data-i18n="about.role.label">Role:</dt><dd data-i18n="about.role.value">Professor at IFFar, Brazil</dd></div>
+              <div><dt data-i18n="about.since.label">Since:</dt><dd>2012</dd></div>
+              <div><dt data-i18n="about.currently.label">Currently:</dt><dd data-i18n="about.currently.value">Coordinator of the Special Committee on Collaborative Systems (CESC) of the Brazilian Computer Society (SBC), 2026–2028</dd></div>
+              <div><dt data-i18n="about.recent.label">Recent roles:</dt><dd data-i18n="about.recent.value">Coordinator of the Bachelor's Degree in Information Systems · Member of the Superior Council at IFFar</dd></div>
+            </dl>
+            <p data-i18n="about.p1">I hold a Ph.D. with international research experience, including a research period in Germany. I have presented my work at conferences in Brazil, Argentina, Germany, Canada, and Finland.</p>
+            <p data-i18n="about.p2">Over the past decade I have coordinated more than seven research projects and trained professionals for both industry and academia. I also actively contribute to the organization of national and international conferences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="faixa zig" aria-hidden="true"></div>
+
+    <!-- Awards -->
+    <section class="bloco" id="premios">
+      <div class="container">
+        <div class="cabec">
+          <h2 data-i18n="awards.title">Awards &amp; Recognition</h2>
+          <p data-i18n="awards.lead">Reviewer and distinguished-service recognitions from the Brazilian Computer Society and the software engineering research community.</p>
+        </div>
+        <div class="premios">
+          <div class="cartao premio"><div class="ano">2026</div>
+            <h3 data-i18n="awards.i7.h">Best Paper — Research Track</h3>
+            <p data-i18n="awards.i7.p">XXI Simpósio Brasileiro de Sistemas Colaborativos (SBSC 2026), Sociedade Brasileira de Computação.</p>
+          </div>
+          <div class="cartao premio"><div class="ano">2026</div>
+            <h3 data-i18n="awards.i6.h">Distinguished Reviewer</h3>
+            <p data-i18n="awards.i6.p">Journal of Software Engineering Research and Development (JSERD).</p>
+          </div>
+          <div class="cartao premio"><div class="ano">2025</div>
+            <h3 data-i18n="awards.i8.h">Distinguished Paper</h3>
+            <p data-i18n="awards.i8.p">XX Simpósio Brasileiro de Sistemas Colaborativos (SBSC 2025), Sociedade Brasileira de Computação.</p>
+          </div>
+          <div class="cartao premio"><div class="ano">2025</div>
+            <h3 data-i18n="awards.i5.h">Distinguished Reviewer</h3>
+            <p data-i18n="awards.i5.p">Journal of Software Engineering Research and Development (JSERD).</p>
+          </div>
+          <div class="cartao premio"><div class="ano">2025</div>
+            <h3 data-i18n="awards.i4.h">Best Reviewer — SBQS</h3>
+            <p data-i18n="awards.i4.p">Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de Computação.</p>
+          </div>
+          <div class="cartao premio"><div class="ano">2024</div>
+            <h3 data-i18n="awards.i3.h">Best Reviewer — EduComp</h3>
+            <p data-i18n="awards.i3.p">Simpósio Brasileiro de Educação em Computação, Sociedade Brasileira de Computação.</p>
+          </div>
+          <div class="cartao premio"><div class="ano">2024</div>
+            <h3 data-i18n="awards.i2.h">Best Reviewer — Research Track</h3>
+            <p data-i18n="awards.i2.p">Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de Computação.</p>
+          </div>
+          <div class="cartao premio"><div class="ano">2024</div>
+            <h3 data-i18n="awards.i1.h">Best Reviewer — Education Track</h3>
+            <p data-i18n="awards.i1.p">Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de Computação.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Research -->
+    <div class="faixa zig" aria-hidden="true"></div>
+
+    <section class="bloco" id="pesquisa">
+      <div class="container">
+        <div class="cabec">
+          <h2 data-i18n="research.title">Research</h2>
+          <p data-i18n="v2.research.lead">How human-centered and creative practices shape the way software is designed,
+            built, and taught.</p>
+        </div>
+        <div class="pilares">
+          <article class="cartao"><span class="ico"><i class="bi bi-lightbulb"></i></span>
+            <h3 data-i18n="research.dt.h">Design Thinking in Software Development</h3>
+            <p data-i18n="research.dt.p">How Design Thinking practices can be integrated into software processes to
+              foster innovation, collaboration, and shared understanding within development teams.</p>
+          </article>
+          <article class="cartao"><span class="ico"><i class="bi bi-compass"></i></span>
+            <h3 data-i18n="research.discovery.h">Product Discovery &amp; Requirements</h3>
+            <p data-i18n="research.discovery.p">Techniques that help teams decide what to build — discovery practices,
+              hypothesis validation, and the bridge between business intent and software requirements.</p>
+          </article>
+          <article class="cartao"><span class="ico"><i class="bi bi-emoji-smile"></i></span>
+            <h3 data-i18n="research.ux.h">User Experience in Development Teams</h3>
+            <p data-i18n="research.ux.p">How UX thinking is adopted (or resisted) by software teams, and the human
+              aspects — motivation, communication, empathy — that influence software quality.</p>
+          </article>
+          <article class="cartao"><span class="ico"><i class="bi bi-cpu"></i></span>
+            <h3 data-i18n="research.ai.h">AI in Computer Science Education</h3>
+            <p data-i18n="research.ai.p">Using Artificial Intelligence to support and personalize learning in Computer
+              Science, and studying its effects on how students learn to build software.</p>
+          </article>
+          <article class="cartao"><span class="ico"><i class="bi bi-camera-video"></i></span>
+            <h3 data-i18n="research.cv.h">Computer Vision for Agile Projects</h3>
+            <p data-i18n="research.cv.p">Applying Computer Vision to physical agile artifacts (boards, notes,
+              ceremonies) to generate feedback and increase transparency and efficiency in Agile teams.</p>
+          </article>
+          <article class="cartao"><span class="ico"><i class="bi bi-diagram-3"></i></span>
+            <h3 data-i18n="research.cscw.h">Collaborative Systems (CSCW)</h3>
+            <p data-i18n="research.cscw.p">Collaborative and social computing applied to software development,
+              connected to my role in the SBC Special Committee on Collaborative Systems (CESC).</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+        <div class="faixa zig" aria-hidden="true"></div>
+
+    <!-- Projects -->
+    <section class="bloco" id="projetos">
+      <div class="container">
+        <div class="cabec">
+          <h2 data-i18n="projects.title">Projects &amp; Labs</h2>
+          <p data-i18n="projects.lead">Research projects and laboratories I currently coordinate, focused on innovative solutions in software engineering, education, and technology.</p>
+        </div>
+        <div class="pilares">
+          <article class="cartao"><span class="quando" data-i18n="projects.lab.when">2020 – Current</span>
+            <h3 data-i18n="projects.lab.h">Lab Ideas — a Design Thinking Laboratory</h3>
+            <p data-i18n="projects.lab.p">A laboratory dedicated to fostering creativity for software development, connecting students, researchers, and practitioners around discovery and Design Thinking.</p>
+          </article>
+          <article class="cartao"><span class="quando" data-i18n="projects.dt.when">2019 – Current</span>
+            <h3 data-i18n="projects.dt.h">Design Thinking in Software Development</h3>
+            <p data-i18n="projects.dt.p">Investigating how Design Thinking can drive innovation and collaboration in software development, and how teams adopt these practices in real settings.</p>
+          </article>
+          <article class="cartao"><span class="quando" data-i18n="projects.ai.when">2022 – Current</span>
+            <h3 data-i18n="projects.ai.h">Artificial Intelligence in Computer Science Education</h3>
+            <p data-i18n="projects.ai.p">Exploring Artificial Intelligence to innovate and enhance learning in Computer Science education.</p>
+          </article>
+          <article class="cartao"><span class="quando" data-i18n="projects.cv.when">2023 – Current</span>
+            <h3 data-i18n="projects.cv.h">Computer Vision Applied to Agile Projects</h3>
+            <p data-i18n="projects.cv.p">Applying Computer Vision to enhance feedback and efficiency in Agile projects.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="faixa zig" aria-hidden="true"></div>
+
+    <!-- Publications -->
+    <section class="bloco" id="publicacoes">
+      <div class="container">
+        <div class="cabec">
+          <h2 data-i18n="pub.title">Publications</h2>
+          <p data-i18n="pub.lead">Recent publications on collaborative systems, Design Thinking, human aspects of software engineering, and Computer Science education. For the complete and up-to-date list, please see my Lattes CV and Google Scholar profile.</p>
+        </div>
+        <h3 class="grupo" data-i18n="pub.col1title2026">Conference &amp; Workshop Papers — 2026</h3>
+        <div class="pubs">
+          <article class="pub"><span class="ano">2026</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbes.2026.26666" target="_blank" rel="noopener">Let's plAI: A Case Study on AI-Assisted Game Creation in Software Engineering Education</a></h3>
+              <p class="local" data-i18n="pub.i14.venue">Simpósio Brasileiro de Engenharia de Software (SBES), São Paulo, Brazil.</p>
+              <p class="autores"><strong>Parizi, R. B.</strong>; Campos, L. A.; Fonseca, A. P.; Kleinpaul, E.</p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2026</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbes.2026.29651" target="_blank" rel="noopener">Scientific Collaboration in Brazilian Software Engineering: A Longitudinal Analysis of the SBES Coauthorship Network (1987–2025)</a></h3>
+              <p class="local" data-i18n="pub.i15.venue">Simpósio Brasileiro de Engenharia de Software (SBES), São Paulo, Brazil.</p>
+              <p class="autores">Bordin, A. S.; Garcia, L. C. M.; <strong>Parizi, R. B.</strong></p>
+            </div>
+          </article>
+          <article class="pub destaque-pub"><span class="ano">2026</span>
+            <div>
+              <p class="best"><i class="bi bi-award-fill"></i> <span data-i18n="pub.bestpaper">Best Paper</span></p>
+              <h3><a href="https://doi.org/10.5753/sbsc.2026.20441" target="_blank" rel="noopener">Rubricas para Avaliação da Colaboração em Desenvolvimento de Software: Evidências a partir de uma Disciplina Mediada pelo Lean Inception</a></h3>
+              <p class="local" data-i18n="pub.i11.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Porto Alegre, Brazil.</p>
+              <p class="autores">Kleinpaul, E.; Pires, A.; Campos, L.; Iglesias, I. L.; <strong>Parizi, R. B.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2026</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbsc.2026.20266" target="_blank" rel="noopener">Impacto Solidário: Um Sistema Colaborativo para Gestão de Doações em Cenários de Crises Climáticas</a></h3>
+              <p class="local" data-i18n="pub.i12.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Porto Alegre, Brazil.</p>
+              <p class="autores">Silva, L.; Fagundes, N.; Silveira, R.; Flores, T.; <strong>Parizi, R. B.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2026</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbsc.2026.20283" target="_blank" rel="noopener">Curricularização da Extensão como Estratégia de Fomento à Colaboração: Relato de Experiência em Projetos Integradores</a></h3>
+              <p class="local" data-i18n="pub.i13.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</p>
+              <p class="autores"><strong>Parizi, Rafael</strong></p>
+            </div>
+          </article>
+        </div>
+        <h3 class="grupo" data-i18n="pub.col2title2025">Conference &amp; Workshop Papers — 2025</h3>
+        <div class="pubs">
+          <article class="pub"><span class="ano">2025</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbsc.2025.6891" target="_blank" rel="noopener">Com Quem Colaboras? Uma Análise Bibliométrica das Redes de Pesquisa em Sistemas Colaborativos na SBC Open Library</a></h3>
+              <p class="local" data-i18n="pub.i6.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</p>
+              <p class="autores">Pires, A.; Kleinpaul, E.; <strong>Parizi, R.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2025</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbsc.2025.8591" target="_blank" rel="noopener">Framework DTColab ON ou OFF? Investigando o uso de sistemas colaborativos na cocriação de soluções no Design Thinking</a></h3>
+              <p class="local" data-i18n="pub.i7.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</p>
+              <p class="autores">Gouvêa, M. T.; Dias, A. F. S.; <strong>Parizi, R.</strong>; Motta, C.</p>
+            </div>
+          </article>
+          <article class="pub destaque-pub"><span class="ano">2025</span>
+            <div>
+              <p class="best"><i class="bi bi-award-fill"></i> <span data-i18n="pub.distinguished">Distinguished Paper</span></p>
+              <h3><a href="https://doi.org/10.5753/sbsc.2025.6892" target="_blank" rel="noopener">On the Use of the Lotus Blossom Technique to Foster Collaboration among Students in Software Development</a></h3>
+              <p class="local" data-i18n="pub.i8.venue">Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</p>
+              <p class="autores">Kleinpaul, E.; Pires, A.; Machado, L.; <strong>Parizi, R.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2025</span>
+            <div>
+              <h3>Avaliando a Colaboração no Ensino de Engenharia de Software: Percepções a partir de uma Revisão Rápida</h3>
+              <p class="local" data-i18n="pub.i9.venue">Simpósio Brasileiro de Engenharia de Software (SBES), Recife, Brazil.</p>
+              <p class="autores">Kleinpaul, E.; <strong>Parizi, R. B.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2025</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbqs.2025.13937" target="_blank" rel="noopener">From Prompts to Prototypes: Exploring ChatGPT in Collaborative Software Prototyping Education</a></h3>
+              <p class="local" data-i18n="pub.i10.venue">Brazilian Software Quality Symposium (SBQS), São José dos Campos, Brazil.</p>
+              <p class="autores">Pires, A.; Kleinpaul, E.; Campos, L.; <strong>Parizi, R. B.</strong></p>
+            </div>
+          </article>
+        </div>
+        <h3 class="grupo" data-i18n="pub.col1title2024">Conference &amp; Workshop Papers — 2024</h3>
+        <div class="pubs">
+          <article class="pub"><span class="ano">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.29327/1407529.27-22" target="_blank" rel="noopener">Collab2US: a Tool for Collecting User Stories from Collaborative Boards</a></h3>
+              <p class="local" data-i18n="pub.i21.venue">Workshop on Requirements Engineering (WER), Buenos Aires, Argentina.</p>
+              <p class="autores">Dornelles, P. L.; <strong>Parizi, R.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/eres.2024.4275" target="_blank" rel="noopener">Tell Me What You See: On a Proposal for a Computer Vision and Sentiment Analysis Tool to Support User Feedback Collection in Software Development</a></h3>
+              <p class="local" data-i18n="pub.i20.venue">Escola Regional de Engenharia de Software (ERES), Brazil.</p>
+              <p class="autores">Soares, R.; Messa, L.; Kleinpaul, E.; <strong>Parizi, R.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/eres.2024.4280" target="_blank" rel="noopener">What is Beyond the Box? A Survey on the Human Perspective in Design Thinking Activities in Software Development</a></h3>
+              <p class="local" data-i18n="pub.i19.venue">Escola Regional de Engenharia de Software (ERES), Brazil.</p>
+              <p class="autores">Nicácio, V.; Kleinpaul, E.; Soares, R.; <strong>Parizi, R.</strong>; Sarkis, L.</p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbes.2024.3600" target="_blank" rel="noopener">Helius: A Design Thinking Techniques Recommendation System in Software Development</a></h3>
+              <p class="local" data-i18n="pub.i18.venue">Simpósio Brasileiro de Engenharia de Software (SBES), Brazil.</p>
+              <p class="autores"><strong>Parizi, R.</strong>; Hanauer, L.; Marczak, S.; Conte, T.</p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbes.2024.3544" target="_blank" rel="noopener">Fostering Collaboration through Design Thinking: A Study among Software Engineering Students</a></h3>
+              <p class="local" data-i18n="pub.i17.venue">Simpósio Brasileiro de Engenharia de Software (SBES), Brazil.</p>
+              <p class="autores">Abich, D.; <strong>Parizi, R.</strong>; Marczak, S.</p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/educomp.2024.237410" target="_blank" rel="noopener">Brewing Ideas: An Experience Report on the Use of World Cafés to Spin on Collaborative Learning of Software Development Life Cycles</a></h3>
+              <p class="local" data-i18n="pub.i3.venue">Simpósio Brasileiro de Educação em Computação (EduComp), Brazil.</p>
+              <p class="autores">Dornelles, P. L.; Dantas, J.; <strong>Parizi, R.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbsc_estendido.2024.238755" target="_blank" rel="noopener">PIDS: Projetos Integradores em Desenvolvimento de Software como Prática Colaborativa na Curricularização da Extensão</a></h3>
+              <p class="local" data-i18n="pub.i4.venue">Anais Estendidos do Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</p>
+              <p class="autores">Abich, D.; Cavalheiro, B.; <strong>Parizi, R.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbsc_estendido.2024.238510" target="_blank" rel="noopener">Oportunidades e Desafios para o Desenvolvimento Colaborativo de Visualizações Narrativas de Dados</a></h3>
+              <p class="local" data-i18n="pub.i5.venue">Anais Estendidos do Simpósio Brasileiro de Sistemas Colaborativos (SBSC), Brazil.</p>
+              <p class="autores">Correa, C. M.; <strong>Parizi, R. B.</strong></p>
+            </div>
+          </article>
+        </div>
+        <h3 class="grupo" data-i18n="pub.col1title">Journal Articles &amp; Book Chapters</h3>
+        <div class="pubs">
+          <article class="pub"><span class="ano">2026</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/jbcs.2026.6549" target="_blank" rel="noopener">Implementing the Lotus Blossom Technique to Enhance Collaboration in Software Engineering Education</a></h3>
+              <p class="tipo" data-i18n="pub.i16.meta">2026 · Journal article</p>
+              <p class="local" data-i18n="pub.i16.venue">Journal of the Brazilian Computer Society (JBCS), Vol. 32, No. 1.</p>
+              <p class="autores">Kleinpaul, E.; Pires, A.; Campos, L.; <strong>Parizi, R.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2025</span>
+            <div>
+              <h3>Avaliando a Colaboração no Ensino de Engenharia de Software: Percepções a partir de uma Revisão Rápida</h3>
+              <p class="tipo" data-i18n="pub.i1.meta">2025 · Journal article</p>
+              <p class="local" data-i18n="pub.i1.venue">Accepted for publication in the SOL journal.</p>
+              <p class="autores"><strong>Parizi, R. B.</strong></p>
+            </div>
+          </article>
+          <article class="pub"><span class="ano">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.5753/sbc.15911.7.1" target="_blank" rel="noopener">DTColab: Design Thinking na Educação com Suporte de Ferramentas Computacionais Colaborativas</a></h3>
+              <p class="tipo" data-i18n="pub.i2.meta">2024 · Book chapter</p>
+              <p class="local">XII Jornada de Atualização em Informática na Educação (JAI), SBC.</p>
+              <p class="autores"><strong>Parizi, R. B.</strong>; Gouvea, M. T. A.; Dias, A. F. S.</p>
+            </div>
+          </article>
+        </div>
+        <div class="centro">
+          <a class="btn solido" href="http://lattes.cnpq.br/1483144999919526" target="_blank" rel="noopener"><i class="bi bi-file-earmark-person"></i> Lattes CV</a>
+          <a class="btn solido" href="https://scholar.google.com/citations?user=KE64ttkAAAAJ&amp;hl" target="_blank" rel="noopener"><i class="bi bi-mortarboard"></i> Google Scholar</a>
+          <a class="btn solido" href="https://orcid.org/0000-0001-8550-1135" target="_blank" rel="noopener"><i class="bi bi-fingerprint"></i> ORCID</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="faixa zig" aria-hidden="true"></div>
+
+    <section class="bloco" id="atuacao">
+      <div class="container">
+        <div class="cabec">
+          <h2 data-i18n="service.title">Academic Service &amp; Recognition</h2>
+          <p data-i18n="service.lead">Roles and contributions to the research community, program committees, and my institution.</p>
+        </div>
+        <h3 class="grupo" data-i18n="service.col1">Community &amp; Committees</h3>
+        <div class="pilares">
+          <article class="cartao">
+            <span class="quando">2026 – 2028</span>
+            <h3 data-i18n="service.cesc.h">Coordinator — Special Committee on Collaborative Systems (CESC)</h3>
+            <p class="sub" data-i18n="service.cesc.em">Brazilian Computer Society (SBC)</p>
+            <p data-i18n="service.cesc.p">Leading the national research community on collaborative systems and CSCW applied to software development. Previously Co-Coordinator.</p>
+          </article>
+          <article class="cartao">
+            <h3 data-i18n="service.confs.h">Conference organization &amp; program committees</h3>
+            <p class="sub" data-i18n="service.confs.em">National and international venues</p>
+            <p data-i18n="service.confs.p">Organizing-committee member for 8+ conferences and reviewer for software engineering and computing education venues, with best-paper and outstanding-reviewer recognitions.</p>
+          </article>
+          <article class="cartao">
+            <h3 data-i18n="service.intl.h">International research experience</h3>
+            <p class="sub" data-i18n="service.intl.em">Germany (research period)</p>
+            <p data-i18n="service.intl.p">Work presented at conferences in Brazil, Argentina, Germany, Canada, and Finland.</p>
+          </article>
+        </div>
+        <h3 class="grupo" data-i18n="service.col2">Institutional Roles — IF Farroupilha (recent)</h3>
+        <div class="pilares">
+          <article class="cartao">
+            <h3 data-i18n="service.is.h">Coordinator — Bachelor's Degree in Information Systems</h3>
+            <p class="sub" data-i18n="service.iffar.em">Federal Institute Farroupilha (IFFar)</p>
+            <p data-i18n="service.is.p">Led the undergraduate program: curriculum, faculty coordination, and student support.</p>
+          </article>
+          <article class="cartao">
+            <h3 data-i18n="service.council.h">Member — Superior Council (Conselho Superior)</h3>
+            <p class="sub" data-i18n="service.iffar.em2">Federal Institute Farroupilha (IFFar)</p>
+            <p data-i18n="service.council.p">Served on the highest deliberative body of the institution.</p>
+          </article>
+          <article class="cartao">
+            <h3 data-i18n="service.sup.h">Research supervision</h3>
+            <p class="sub" data-i18n="service.sup.em">Undergraduate and technical levels</p>
+            <p data-i18n="service.sup.p">40+ students mentored in Information Technology; 7+ research projects coordinated as principal investigator over the past decade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="faixa zig" aria-hidden="true"></div>
+
+    <section class="bloco" id="ensino">
+      <div class="container">
+        <div class="cabec">
+          <h2 data-i18n="teaching.title">Teaching</h2>
+          <p data-i18n="teaching.lead">Teaching Computer Science since 2012, with more than 10,000 hours in the classroom and a focus on software engineering, discovery, and human-centered design.</p>
+        </div>
+        <h3 class="grupo" data-i18n="teaching.col1">Courses &amp; Topics</h3>
+        <div class="pilares">
+          <article class="cartao">
+            <h3 data-i18n="teaching.se.h">Software Engineering</h3>
+            <p class="sub" data-i18n="teaching.se.em">Undergraduate — Information Systems, IFFar</p>
+            <p data-i18n="teaching.se.p">Software processes, requirements, agile methods, and quality.</p>
+          </article>
+          <article class="cartao">
+            <h3 data-i18n="teaching.dt.h">Design Thinking &amp; Product Discovery</h3>
+            <p class="sub" data-i18n="teaching.dt.em">Undergraduate and extension courses</p>
+            <p data-i18n="teaching.dt.p">200+ hours facilitating Design Thinking workshops for students and practitioners.</p>
+          </article>
+          <article class="cartao">
+            <h3 data-i18n="teaching.ux.h">User Experience &amp; Human-Computer Interaction</h3>
+            <p class="sub" data-i18n="teaching.ux.em">Undergraduate — Information Systems, IFFar</p>
+            <p data-i18n="teaching.ux.p">Usability, interaction design, and evaluation methods.</p>
+          </article>
+        </div>
+        <h3 class="grupo" data-i18n="teaching.col2">Mentoring &amp; Outreach</h3>
+        <div class="pilares">
+          <article class="cartao">
+            <h3 data-i18n="teaching.ic.h">Undergraduate research (scientific initiation)</h3>
+            <p class="sub" data-i18n="teaching.ic.em">2012 – Present</p>
+            <p data-i18n="teaching.ic.p">Supervising students on Design Thinking, AI in education, and Computer Vision for agile projects.</p>
+          </article>
+          <article class="cartao">
+            <h3 data-i18n="teaching.capstone.h">Capstone and final projects</h3>
+            <p class="sub" data-i18n="teaching.capstone.em">Information Systems, IFFar</p>
+            <p data-i18n="teaching.capstone.p">Advising software projects that connect research questions with real problems.</p>
+          </article>
+          <article class="cartao">
+            <h3 data-i18n="teaching.outreach.h">Community &amp; K-12 outreach</h3>
+            <p class="sub" data-i18n="teaching.outreach.em">Ongoing</p>
+            <p data-i18n="teaching.outreach.p">Bringing computing and design activities to the wider community around São Borja.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contato" id="contato">
+      <div class="container">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p data-i18n="contact.lead">Open to research collaborations, student supervision, and invited talks. Feel free to reach out.</p>
+        <div class="acoes centrado">
+          <a class="btn" href="mailto:rafael.parizi@iffar.edu.br"><i class="bi bi-envelope"></i> rafael.parizi (at) iffar.edu.br</a>
+        </div>
+        <address>
+          <b data-i18n="contact.addr.h5">Federal Institute Farroupilha — São Borja Campus</b><br>
+          <span data-i18n="contact.addr.p">Otaviano Castilhos Mendes Street, 355, São Borja - RS, Brazil</span>
+        </address>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="rodape-tag" data-i18n="footer.tagline">Software Engineering researcher &amp; professor — IFFar, Brazil</p>
+      <div class="redes escuro">
+            <a href="https://scholar.google.com/citations?user=KE64ttkAAAAJ&amp;hl" title="Google Scholar" target="_blank" rel="noopener"><i class="bi bi-mortarboard"></i></a>
+            <a href="http://lattes.cnpq.br/1483144999919526" title="Lattes CV" target="_blank" rel="noopener"><i class="bi bi-file-earmark-person"></i></a>
+            <a href="https://orcid.org/0000-0001-8550-1135" title="ORCID" target="_blank" rel="noopener"><i class="bi bi-fingerprint"></i></a>
+            <a href="https://www.linkedin.com/in/rafael-parizi/" title="LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <p>© Rafael Parizi · <span data-i18n="footer.rights">All Rights Reserved</span></p>
+    </div>
   </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js?v=20260905"></script>
-
-  <!-- Language toggle (EN / PT-BR) -->
-  <script src="assets/js/i18n.js?v=20260905"></script>
-
+  <script src="assets/js/i18n.js?v=20261123"></script>
+  <script>
+    document.querySelector('.btn-menu').addEventListener('click', function () {
+      var m = document.querySelector('.menu'), o = m.classList.toggle('aberto');
+      this.setAttribute('aria-expanded', o);
+    });
+    document.querySelectorAll('.menu a').forEach(function (a) {
+      a.addEventListener('click', function () { document.querySelector('.menu').classList.remove('aberto'); });
+    });
+  </script>
 </body>
 
 </html>
