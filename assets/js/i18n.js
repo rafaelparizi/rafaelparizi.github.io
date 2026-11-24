@@ -60,8 +60,8 @@
     },
     "about.other.label": { en: "Other Degrees:", pt: "Outras formações:" },
     "about.other.value": {
-      en: "M.Sc. and B.Sc. in Computer Science",
-      pt: "Mestrado e Bacharelado em Ciência da Computação"
+      en: "M.Sc. in Computer Science (UFRGS) and B.Sc. in Computer Science (Unipampa)",
+      pt: "Mestrado em Ciência da Computação (UFRGS) e Bacharelado em Ciência da Computação (Unipampa)"
     },
     "about.focus.label": { en: "Research focus:", pt: "Foco de pesquisa:" },
     "about.focus.value": {
@@ -149,11 +149,15 @@
     },
 
     /* Home v2 */
+    "merged.title": { en: "Research, Projects & Labs", pt: "Pesquisa, Projetos e Laboratórios" },
+    "merged.lines": { en: "Research lines", pt: "Linhas de pesquisa" },
     "v2.badge": { en: "Professor & researcher · IFFar, Brazil", pt: "Professor e pesquisador · IFFar, Brasil" },
     "v2.role": { en: "Software Engineering Researcher", pt: "Pesquisador em Engenharia de Software" },
     "v2.cta.research": { en: "Explore my research", pt: "Conheça minha pesquisa" },
     "v2.cta.pubs": { en: "Publications", pt: "Publicações" },
     "v2.chip.cesc": { en: "Coordinator · CESC / SBC (2026–2028)", pt: "Coordenador · CESC / SBC (2026–2028)" },
+    "v2.chip.bsc": { en: "B.Sc. in Computer Science · Unipampa", pt: "Bacharel em Ciência da Computação · Unipampa" },
+    "v2.chip.msc": { en: "M.Sc. in Computer Science · UFRGS", pt: "Mestre em Ciência da Computação · UFRGS" },
     "v2.chip.phd": { en: "Ph.D. in Computer Science · PUCRS", pt: "Doutor em Ciência da Computação · PUCRS" },
     "v2.now": { en: "Currently", pt: "Atualmente" },
     "v2.research.lead": {

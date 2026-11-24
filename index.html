@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-  <link href="assets/css/site.css?v=16" rel="stylesheet">
+  <link href="assets/css/site.css?v=28" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +26,6 @@
           <li><a href="#sobre" data-i18n="nav.about">About</a></li>
           <li><a href="#premios" data-i18n="nav.awards">Awards</a></li>
           <li><a href="#pesquisa" data-i18n="nav.research">Research</a></li>
-          <li><a href="#projetos" data-i18n="nav.projects">Projects</a></li>
           <li><a href="#publicacoes" data-i18n="nav.publications">Publications</a></li>
           <li><a href="#atuacao" data-i18n="nav.service">Service</a></li>
           <li><a href="#ensino" data-i18n="nav.teaching">Teaching</a></li>
@@ -69,8 +68,12 @@
           <div class="moldura"><img src="assets/img/profile-image-2.jpeg" alt="Rafael Parizi"></div>
           <div class="chip chip-a"><span class="ico"><i class="bi bi-people"></i></span><span
               data-i18n="v2.chip.cesc">Coordinator · CESC / SBC (2026–2028)</span></div>
-          <div class="chip chip-b"><span class="ico"><i class="bi bi-mortarboard"></i></span><span
+          <div class="chip chip-b"><span class="ico logo-ico"><img src="assets/img/pucrs.png" alt="PUCRS"></span><span
               data-i18n="v2.chip.phd">Ph.D. in Computer Science · PUCRS</span></div>
+          <div class="chip chip-d"><span class="ico logo-ico"><img src="assets/img/unipampa.png" alt="Unipampa"></span><span
+              data-i18n="v2.chip.bsc">B.Sc. in Computer Science · Unipampa</span></div>
+          <div class="chip chip-c"><span class="ico logo-ico"><img src="assets/img/ufrgs.png" alt="UFRGS"></span><span
+              data-i18n="v2.chip.msc">M.Sc. in Computer Science · UFRGS</span></div>
         </div>
       </div>
     </section>
@@ -179,12 +182,12 @@
     <section class="bloco" id="pesquisa">
       <div class="container">
         <div class="cabec">
-          <h2 data-i18n="research.title">Research</h2>
-          <p data-i18n="v2.research.lead">How human-centered and creative practices shape the way software is designed,
-            built, and taught.</p>
+          <h2 data-i18n="merged.title">Research, Projects &amp; Labs</h2>
+          <p data-i18n="v2.research.lead">How human-centered and creative practices shape the way software is designed, built, and taught.</p>
         </div>
         <div class="pilares">
           <article class="cartao"><span class="ico"><i class="bi bi-lightbulb"></i></span>
+            <span class="quando" data-i18n="projects.dt.when">2019 – Current</span>
             <h3 data-i18n="research.dt.h">Design Thinking in Software Development</h3>
             <p data-i18n="research.dt.p">How Design Thinking practices can be integrated into software processes to
               foster innovation, collaboration, and shared understanding within development teams.</p>
@@ -200,11 +203,13 @@
               aspects — motivation, communication, empathy — that influence software quality.</p>
           </article>
           <article class="cartao"><span class="ico"><i class="bi bi-cpu"></i></span>
+            <span class="quando" data-i18n="projects.ai.when">2022 – Current</span>
             <h3 data-i18n="research.ai.h">AI in Computer Science Education</h3>
             <p data-i18n="research.ai.p">Using Artificial Intelligence to support and personalize learning in Computer
               Science, and studying its effects on how students learn to build software.</p>
           </article>
           <article class="cartao"><span class="ico"><i class="bi bi-camera-video"></i></span>
+            <span class="quando" data-i18n="projects.cv.when">2023 – Current</span>
             <h3 data-i18n="research.cv.h">Computer Vision for Agile Projects</h3>
             <p data-i18n="research.cv.p">Applying Computer Vision to physical agile artifacts (boards, notes,
               ceremonies) to generate feedback and increase transparency and efficiency in Agile teams.</p>
@@ -214,35 +219,10 @@
             <p data-i18n="research.cscw.p">Collaborative and social computing applied to software development,
               connected to my role in the SBC Special Committee on Collaborative Systems (CESC).</p>
           </article>
-        </div>
-      </div>
-    </section>
-
-        <div class="faixa zig" aria-hidden="true"></div>
-
-    <!-- Projects -->
-    <section class="bloco" id="projetos">
-      <div class="container">
-        <div class="cabec">
-          <h2 data-i18n="projects.title">Projects &amp; Labs</h2>
-          <p data-i18n="projects.lead">Research projects and laboratories I currently coordinate, focused on innovative solutions in software engineering, education, and technology.</p>
-        </div>
-        <div class="pilares">
-          <article class="cartao"><span class="quando" data-i18n="projects.lab.when">2020 – Current</span>
+          <article class="cartao"><span class="ico"><i class="bi bi-building"></i></span>
+            <span class="quando" data-i18n="projects.lab.when">2020 – Current</span>
             <h3 data-i18n="projects.lab.h">Lab Ideas — a Design Thinking Laboratory</h3>
             <p data-i18n="projects.lab.p">A laboratory dedicated to fostering creativity for software development, connecting students, researchers, and practitioners around discovery and Design Thinking.</p>
-          </article>
-          <article class="cartao"><span class="quando" data-i18n="projects.dt.when">2019 – Current</span>
-            <h3 data-i18n="projects.dt.h">Design Thinking in Software Development</h3>
-            <p data-i18n="projects.dt.p">Investigating how Design Thinking can drive innovation and collaboration in software development, and how teams adopt these practices in real settings.</p>
-          </article>
-          <article class="cartao"><span class="quando" data-i18n="projects.ai.when">2022 – Current</span>
-            <h3 data-i18n="projects.ai.h">Artificial Intelligence in Computer Science Education</h3>
-            <p data-i18n="projects.ai.p">Exploring Artificial Intelligence to innovate and enhance learning in Computer Science education.</p>
-          </article>
-          <article class="cartao"><span class="quando" data-i18n="projects.cv.when">2023 – Current</span>
-            <h3 data-i18n="projects.cv.h">Computer Vision Applied to Agile Projects</h3>
-            <p data-i18n="projects.cv.p">Applying Computer Vision to enhance feedback and efficiency in Agile projects.</p>
           </article>
         </div>
       </div>
@@ -554,7 +534,7 @@
     </div>
   </footer>
 
-  <script src="assets/js/i18n.js?v=20261123"></script>
+  <script src="assets/js/i18n.js?v=20261124"></script>
   <script>
     document.querySelector('.btn-menu').addEventListener('click', function () {
       var m = document.querySelector('.menu'), o = m.classList.toggle('aberto');
