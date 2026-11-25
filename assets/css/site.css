@@ -95,14 +95,16 @@ img { max-width: 100%; display: block; }
   display: grid; place-items: center; font-size: 17px; flex-shrink: 0;
 }
 .chip-a { top: -16px; left: -30px; }
-.chip-b { top: 24%; right: -70px; }
-.chip-c { top: 50%; right: -70px; }
-.chip-d { top: 76%; right: -70px; }
+.chip-b { top: 28%; right: -70px; }
+.chip-c { top: 46%; right: -70px; }
+.chip-d { top: 64%; right: -70px; }
 .chip .logo-ico { background: transparent; border: 0; padding: 0; border-radius: 0; width: 64px; height: 40px; align-self: flex-start; flex-shrink: 0; display: block; }
 .chip .logo-ico img { width: 100%; height: 100%; object-fit: contain; object-position: center top; flex-shrink: 0; border-radius: 0; aspect-ratio: auto; }
-.chip-b .logo-ico { width: 28px; height: 42px; }
+.chip-b .logo-ico { width: 62px; height: 36px; }
 .chip-c .logo-ico { width: 60px; height: 36px; }
 .chip-d .logo-ico { width: 60px; height: 36px; }
+.chip-a .logo-ico { width: 52px; height: 30px; align-self: center; }
+.chip-a .logo-ico img { object-position: center; }
 .chip:has(.logo-ico) { align-items: flex-start; gap: 12px; padding: 10px 18px 10px 12px; max-width: 300px; width: max-content; }
 
 /* ---------- Numbers ---------- */
@@ -286,3 +288,23 @@ section.bloco { padding-top: 48px; }
 .pub h3 a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
 .pub:has(h3 a):hover { border-color: var(--verde); box-shadow: 0 8px 24px rgba(5, 45, 30, .10); }
 .pub:has(h3 a):hover h3 a { color: var(--azul); }
+
+.pub .selos { margin: 8px 0 0; }
+.qualis {
+  display: inline-flex; align-items: center; gap: 5px; padding: 2px 10px; border-radius: 99px;
+  background: var(--claro); border: 1px solid #cfe9db; color: var(--azul); font-size: 11.5px; font-weight: 600; cursor: help;
+}
+.qualis b { background: var(--azul); color: #fff; border-radius: 99px; padding: 0 7px; font-size: 11px; }
+
+/* ---------- Mobile: education chips below the photo ---------- */
+@media (max-width: 960px) {
+  .retrato { width: min(380px, 100%); display: flex; flex-direction: column; gap: 10px; }
+  .retrato .moldura { margin-bottom: 8px; }
+  .retrato .chip, .retrato .chip:has(.logo-ico) {
+    position: static; inset: auto; width: 100%; max-width: none; box-shadow: 0 6px 18px rgba(0, 40, 25, .18);
+    align-items: center; font-size: 13.5px;
+  }
+  .retrato .chip .logo-ico { align-self: center; }
+  .retrato .chip .ico:not(.logo-ico) { flex-shrink: 0; }
+  .retrato .moldura { order: 0; } .chip-a { order: 1; } .chip-b { order: 2; } .chip-c { order: 3; } .chip-d { order: 4; }
+}
