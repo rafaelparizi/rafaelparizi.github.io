@@ -97,7 +97,7 @@
     "stats.hours": { en: "Hours of Computer Science teaching", pt: "Horas de ensino em Computação" },
     "stats.confs": { en: "Conferences served as organizing member", pt: "Conferências com atuação na organização" },
     "stats.workshops": { en: "Hours facilitating Design Thinking workshops", pt: "Horas facilitando workshops de Design Thinking" },
-    "stats.awards": { en: "Best-paper and reviewer recognitions", pt: "Reconhecimentos de melhor artigo e de revisor" },
+    "stats.awards": { en: "Paper and reviewer recognitions", pt: "Reconhecimentos de artigo e de revisor" },
 
     /* Awards */
     "awards.title": { en: "Awards & Recognition", pt: "Premiações e Reconhecimentos" },
@@ -105,7 +105,7 @@
       en: "Reviewer and distinguished-service recognitions from the Brazilian Computer Society and the software engineering research community.",
       pt: "Reconhecimentos de revisor e de atuação destacada concedidos pela Sociedade Brasileira de Computação e pela comunidade de pesquisa em Engenharia de Software."
     },
-    "awards.i7.h": { en: "Best Paper — Research Track", pt: "Melhor Artigo — Trilha de Pesquisa" },
+    "awards.i7.h": { en: "Distinguished Paper — Research Track", pt: "Artigo Destaque — Trilha de Pesquisa" },
     "awards.i7.p": {
       en: "XXI Simpósio Brasileiro de Sistemas Colaborativos (SBSC 2026), Sociedade Brasileira de Computação.",
       pt: "XXI Simpósio Brasileiro de Sistemas Colaborativos (SBSC 2026), Sociedade Brasileira de Computação."
@@ -116,7 +116,6 @@
       pt: "XX Simpósio Brasileiro de Sistemas Colaborativos (SBSC 2025), Sociedade Brasileira de Computação."
     },
     "pub.distinguished": { en: "Distinguished Paper", pt: "Artigo Destaque" },
-    "pub.bestpaper": { en: "Best Paper", pt: "Melhor Artigo" },
     "awards.i1.h": { en: "Best Reviewer — Education Track", pt: "Melhor Revisor — Trilha de Educação" },
     "awards.i1.p": {
       en: "Brazilian Symposium on Software Quality (SBQS), Sociedade Brasileira de Computação.",
